@@ -47,7 +47,7 @@ jobs:
           make
       # upload VPK as artifact
       - name: Upload VPK
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: vitaTrak.VPK
           path: build/vitaTrakUi.vpk
